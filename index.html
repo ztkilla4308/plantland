@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://kit.fontawesome.com/78bb66f910.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="nav-logo-container">
+            <img src="./media/logo.png" alt="" width="200">
+        </div>
+        <div id="sandwich-container" onclick="sandwichFunction(this)">
+            <div class="sandwich-bar" id="bar1"></div>
+            <div class="sandwich-bar" id="bar2"></div>
+            <div class="sandwich-bar" id="bar3"></div>
+        </div>
+        <div id="navlinks-container">
+            <a href="#">About us</a>
+            <a href="#">Plants</a>
+            <a href="#">Pick of the Month</a>
+            <a href="#">Pricing</a>
+            <a href="#">Testimonials</a>
+            <a href="#">Contact us</a>
+        </div>
+    </nav>
+    <section id="main-container">
+        <small class="title">—Plantland—</small>
+        <h3 class="sans-title">Make Your Home Green</h3>
+        <p>Check out our store in New York with the best indoor & outdoor plants that are suitable for growing exactly in your conditions.</p>
+        <div id="main-btn-container">
+            <button class="green-btn">Best Plants</button>
+            <button class="white-btn">Learn More</button>
+        </div>
+    </section>
+    <section id="about-container">
+        <div id="about-text-container">
+            <small class="title">—About Us—</small>
+            <h3 class="sans-title">Fill Your Home and Garden With Beautiful, Green Plants!</h3>
+            <p>Our shop offers you to buy home plants to decorate your home or office. In our offline shop, you will find the best selection of flowers and evergreens at attractive prices. We get indoor flowers from the best suppliers in NY, all plants are grown with strict adherence to technology. We offer:</p>
+            <ul>
+                <li>LARGE SELECTION OF DIFFERENT PLANTS</li>
+                <li>RELATED SERVICES AND HOME GOODS</li>
+            </ul>
+            <button class="green-btn">Browse Plants</button>
+        </div>
+        <div id="about-image-container">
+            <img src="./media/about-image.png" alt="">
+        </div>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div style="background-color: black; width: 500px; height: 500px;"></div>
+              </div>
+              <div class="carousel-item active">
+                <div style="background-color: rgb(188, 61, 61); width: 500px; height: 500px;"></div>
+              </div>
+              <div class="carousel-item active">
+                <div style="background-color: rgb(225, 197, 197); width: 500px; height: 500px;"></div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
