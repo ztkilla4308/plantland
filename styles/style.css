@@ -161,6 +161,9 @@ body{
   height: 65px;
   padding: 0;
 }
+#about-image-container{
+  width: 100vw;
+}
 #about-image-container img{
   width: 500px;
   padding-top: 50px;
