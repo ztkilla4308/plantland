@@ -165,6 +165,6 @@ body{
   width: 100vw;
 }
 #about-image-container img{
-  width: 500px;
+  width: 100%;
   padding-top: 50px;
 }
