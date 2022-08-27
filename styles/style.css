@@ -167,3 +167,24 @@ body{
   width: 100%;
   padding-top: 50px;
 }
+#carousel-container{
+  width: 100vw;
+}
+#carousel-inner{
+  position: relative;
+}
+.slide{
+  position: absolute;
+  transform: translateX(2000px);
+  top: 50px;
+  width: 500px;
+  height: 500px;
+}
+.slide.active{
+  transform: translateX(0px);
+  transition: 1s;
+}
+.slide.before{
+  transition: 1s;
+  transform: translateX(-2000px);
+}
