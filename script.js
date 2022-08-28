@@ -8,7 +8,7 @@ function sandwichFunction(x) {
 let SliderTemp = 0
 const sliders = document.getElementsByClassName('slide')
 
-function sliderFunc(x) {
+function sliderFunc() {
   sliderBefore()
   for (let i = 0; i < sliders.length; i++) {
     sliders[i].classList.remove('active')
@@ -18,7 +18,7 @@ function sliderFunc(x) {
     for (let i = 0; i < sliders.length; i++) {
       sliders[i].classList.remove('before')
     }
-  }, 500)
+  }, 700)
 }
 function sliderBefore() {
   let beforeSl = document.getElementsByClassName('slide active')
@@ -30,7 +30,7 @@ function nextBtn() {
   } else {
     SliderTemp = 0
   }
-  sliderFunc('next')
+  sliderFunc()
 }
 function prevBtn() {
   if (SliderTemp > 0) {
@@ -38,5 +38,5 @@ function prevBtn() {
   } else {
     SliderTemp = sliders.length - 1
   }
-  sliderFunc('prev')
+  sliderFunc()
 }
